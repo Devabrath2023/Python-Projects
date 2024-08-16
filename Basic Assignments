@@ -1,0 +1,143 @@
+
+
+Q1. Using Python script as a calculator
+Create the variables n, r, p and assign them values 10, 5, and 100 respectively. Then evaluate the following expression in the Python console.
+𝐴 = 𝑝 (1 + 𝑟/ 100)n
+a. 100
+b. 162.89
+c. 189
+d. None of the above
+
+Q2. In a given string format operation, how will you print the given string. A = 10
+B = 20
+Str = "There are {} students in the class, with {} who play at least one sport."
+print(string.format(a,b))
+print(string+a+b)
+print(string.format(b,a))
+None of the above
+
+Q3. In a given sample string, How do you print a double quoted string in between a regular
+string using the escape character?
+Sample output = It goes without saying, “Time is Money”, and none can deny it.
+print(“It goes without saying, \“Time is Money\”, and none can deny it.”)
+print(“It goes without saying, \Time is Money\, and none can deny it.”)
+print(“It goes without saying” + “Time is Money” + “and none can deny it.”)
+None of the above.
+
+Q4. What will be the output of the following code? x = lambda a,b: a//b
+x(10,3)
+a. 3.3333333333
+b. 3
+c. 30
+d. 1000
+
+Q5. What will be the output of the following code? A = 10
+B = 12
+print("Smaller") if A == B else print("Greater") if A < B else print("True")
+True
+Smaller
+Greater
+None of the above
+Q6. What will be the output of the following code?
+
+
+
+
+a. [2 7 3 5 4 6]
+TypeError
+NameError: name 'numpy' is not defined
+None of the above
+
+Q7. Create a string called ‘string’ with the value as “Machine Learning”. Which code(s) is/are appropriate to slice the substring “Learn”?
+
+string[slice(13,8,1)]
+string[slice(1,8,1)]
+string[8:14]
+string[slice(8,13,1)]
+
+Q8. Create a sequence of numbers from 10 to 25 and increment by 4. What is the index of the
+value 18?
+
+3
+2
+0
+1
+
+Q9. Which of the following is true with respect to the below codes?
+
+num1 = num2
+num1 ≠ num2
+num1 < num2
+num1 > num2
+
+
+Q10.A Python NameError exception is raised when: -
+
+Trying to access a variable which has not been defined
+Trying to access a key in a dictionary that does not exist
+
+Accessing a column with misspelled column name
+Accessing the function from a module that has not been imported
+
+Q11.What type of exception will be raised for the code given below?
+
+
+NameError
+KeyError
+ValueError
+AttributeError
+
+Q12.A FileNotFoundError exception is raised by operating system errors when: -
+
+Trying to create a file or directory which already exists
+A file or directory is requested but does not exist in the working directory
+Trying to run an operation without the adequate access rights
+A directory operation, os.listdir() is requested on something which is not a directory
+
+Q13.Consider a variable Z. The value of Z is "ID-5632". Data type of Z is: -
+Complex
+Character
+Integer
+Boolean
+Q14.Which of the following variable(s) are character data type? a. K= “4”
+b. J= “Welcome”
+c. L= “?”
+d. All of the above
+Q15.Choose the symbol/s that does not have the ability to convert any values to string?
+( )
+“ ”
+{}
+#
+Q16.Create a dictionary ‘Country’ that maps the following countries to their capitals respectively:
+
+
+Country
+India
+China
+Japan
+Qatar
+France
+State
+Delhi
+Beijing
+Tokyo
+Doha
+Marseilles
+
+
+Find 2 commands to replace “Marseilles” with “Paris” is:
+
+Q17. Create the tuples given below tuple_1 = (1,5,6,7,8)
+tuple_2 = (8,9,4)
+Identify which of the following code does not work on a tuple.
+
+
+sum(tuple_1)
+len(tuple_2)
+tuple_2 + tuple_1
+d. tuple_1[3] = 45
+
+Q18. How many elements in the following data structure?
+
+
+Q19.Write a function which finds all pythagorean triplets of triangles whose sides are no greater than a natural number N.
